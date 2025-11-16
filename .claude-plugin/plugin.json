@@ -1,0 +1,26 @@
+{
+  "name": "learning",
+  "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrosehill/learning-plugin"
+  },
+  "commands": [
+    "./commands/analysis/analyze-commits.md",
+    "./commands/analysis/explain-code.md",
+    "./commands/briefing/create-briefing.md",
+    "./commands/resources/find-learning.md",
+    "./commands/tutorials/how-to-create-custom-skills.md"
+  ],
+  "keywords": [
+    "misc",
+    "learning"
+  ]
+}
